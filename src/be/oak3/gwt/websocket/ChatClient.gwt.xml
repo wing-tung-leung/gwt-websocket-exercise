@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='example'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name="org.realityforge.gwt.websockets.WebSockets"/>
+  <!-- 
+  <inherits name="com.google.gwt.logging.Logging"/>
+  -->
+
+  <!-- Compile a single permutation for all platforms -->
+  <collapse-all-properties/>
+
+  <entry-point class='be.oak3.gwt.websocket.client.ChatClient'/>
+
+  <source path='client'/>
+
+  <set-property name="gwt.logging.enabled" value="FALSE"/>
+  
+    <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+</module>

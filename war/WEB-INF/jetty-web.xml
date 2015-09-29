@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+
+<Configure>
+
+	<!-- <Get class="org.eclipse.jetty.util.log.Log" name="rootLogger"> <Call 
+		name="warn"> <Arg>hello-world-get-chatserver !!!</Arg> </Call> </Get> -->
+<!-- 
+	<New id="RewriteHandler" class="com.oak3.gwt.server.CorsHandler" 
+		 />
+ -->
+
+<!-- 
+	<Set name="handler" class="org.eclipse.jetty.webapp.WebAppContext">
+	<New id="Handlers" class="org.eclipse.jetty.server.handler.HandlerCollection">
+    <Set name="handlers">
+      <Array type="org.eclipse.jetty.server.Handler">
+        <Item>
+          <Ref id="RewriteHandler"/>
+        </Item>
+      </Array>
+    </Set>
+  </New>		
+	</Set>
+ -->
+
+
+</Configure>
